@@ -1,0 +1,28 @@
+.custom-content-last_post {
+    h1{
+        padding: 50px 0px;
+    }
+    .best-text-wrapper{
+        padding: 50px 25px;
+        text-align: center;
+        text-decoration: none;
+        &:hover {
+            text-decoration: none!important;
+        }
+        .date {
+            margin-bottom: 5px;
+        }
+        h2 {
+            margin-bottom: 5px;
+            color: $black2;
+        }
+        p {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        .link_post {
+            font-size: 14px;
+            color: $black2;
+        }
+    }
+}

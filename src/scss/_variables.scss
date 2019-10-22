@@ -1,0 +1,57 @@
+$primary_font: 'Poppins', sans-serif;
+$font_regular: normal;
+$font_bold: bold;
+$font_black: 900;
+
+$transparent: transparent;
+$white: #ffffff;
+$black: #000000;
+$black2: #646464;
+$stopka: #4c4c4c;
+$darkyellow: #ffb81d;
+$grey1: #323232;
+$grey-light: #f7f7f7;
+$pink: #FFF4F4;
+$pink2: #fff9f9;
+
+
+$colors: (transparent: $transparent,
+white: $white,
+pink: $pink,
+pink2: $pink2,
+black: $black,
+black2: $black2,
+stopka: $stopka,
+darkyellow: $darkyellow,
+grey1: $grey1,
+grey-light: $grey-light
+);
+
+$grid-breakpoints: (xs: 0,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px,
+xxl: 1920px);
+
+$container-max-widths: (sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1140px,
+xxl: 1860px);
+
+$spacer: 1rem !default;
+$spacers: () !default;
+
+$spacers: map-merge((0: 0,
+1: ($spacer * .25),
+2: ($spacer * .5),
+3: $spacer,
+4: ($spacer * 1.5),
+5: ($spacer * 3),
+6: ($spacer * 5.5),
+7: ($spacer * 7),
+8: ($spacer * 10),
+9: ($spacer * 15),
+10: ($spacer * 20)),
+$spacers);

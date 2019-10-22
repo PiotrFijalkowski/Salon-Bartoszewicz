@@ -1,0 +1,34 @@
+* {
+    outline: none !important;
+}
+.custom-content-category_info {
+    display: none;
+}
+.body-wrapper:not(.page-home) {
+margin-top: 150px;
+}
+pre {
+    display: none;
+}
+.post {
+    .body-wrapper {
+
+        margin-top: 20px;
+    }
+    .container {
+        @include media-breakpoint-up(xxl) {
+            max-width: 1140px!important;
+        }
+    }
+}
+.page-blog {
+    background-color: $pink;
+}
+.produkty {
+    .body-wrapper-produkty {
+        margin-top: 150px;
+    }
+    .body-wrapper {
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,48 @@
+
+
+.article-container, .process-main-container {
+    .article-container--title {
+        color: #424242;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: -0.18px;
+    }
+
+    h1 {
+        color: $black;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: -0.36px;
+        text-transform: uppercase;
+        @include media-breakpoint-up(lg) {
+            font-size: 30px;
+        }
+    }
+
+    p {
+        color: $black2;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 25px;
+
+    }
+}
+
+.nav-transparent {
+    transition: 750ms ease;
+    background: transparent !important;
+}
+
+.nav-toggle {
+    background: white !important;
+    border: 1px solid rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 10px 13px -9px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 10px 13px -9px rgba(0,0,0,0.5);
+box-shadow: 0px 10px 13px -9px rgba(0,0,0,0.5);
+}
+.nav-wrap {
+    padding: 20px 0px;
+}

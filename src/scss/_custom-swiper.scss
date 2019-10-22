@@ -1,0 +1,62 @@
+.swiper {
+    &-slide {
+        &-caption {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+        }
+    }
+
+    &-nav {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        cursor: pointer;
+        height: 0px;
+        @include media-breakpoint-up(md) {
+            top: 40%;
+            bottom: 0;
+            left: -40px;
+            right: -40px;
+        }
+        @include media-breakpoint-up(xxl) {
+            left: -60px;
+            right: -60px;
+        }
+
+        &-button {
+            height: 50px;
+            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+
+            @include media-breakpoint-up(xxl) {
+                height: 80px;
+                width: 80px;
+            }
+
+            img {
+                width: 30px;
+                height: 20px;
+                transform: rotate(-90deg);
+            }
+
+            &-prev {
+                transform: rotate(180deg);
+                position: absolute;
+                left: 0;
+            }
+
+            &-next {
+                position: absolute;
+                right: 0;
+            }
+        }
+    }
+}
