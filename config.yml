@@ -7,7 +7,7 @@ COMPATIBILITY:
 # Pass down paths to Gulp
 PATHS:
   # Path to output directory
-  dist: "app/themes/starter"
+  dist: "app/themes/StorkDesign"
   # Path to fonts
   fonts:
     - "src/fonts/**/*"
