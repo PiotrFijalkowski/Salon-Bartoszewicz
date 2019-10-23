@@ -6,10 +6,11 @@ html {
     .hamburger {
         span {
             transition: all .4s ease;
-
+            height: 3px;
             &:nth-child(1) {
                 top: 50%;
                 transform: rotate(45deg);
+                
             }
 
             &:nth-child(2) {
@@ -20,6 +21,9 @@ html {
             &:nth-child(3) {
                 top: 50%;
                 transform: rotate(-45deg);
+                width: 75%;
+                right: 0;
+                display: none;
             }
         }
     }
@@ -41,6 +45,7 @@ html {
                 &:nth-child(3) {
                     top: 16px;
                     transform: rotate(0);
+                    display: block;
                 }
             }
         }

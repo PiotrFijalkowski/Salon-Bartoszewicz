@@ -16,13 +16,13 @@
 
         <div class="fixed-top">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-10">
-                    <div class="nav-transparent navigation-container nav-toggle m-0 mt-lg-5 px-5 nav-wrap" id="header-main-container">
-                            <nav class="navbar navbar-expand-lg p-0">
+                <div class="col-12">
+                    <div class="nav-transparent navigation-container nav-toggle m-0 px-5 nav-wrap" id="header-main-container">
+                            <nav class="navbar navbar-expand-xs p-0">
                                 <a class="navbar-logo" href="<?php echo home_url('/'); ?>">
-                                    <img src="<?php echo IMG_DIR; ?>/logo.svg" alt="" class="img-fluid">
+                                    <img src="<?php echo IMG_DIR; ?>/logo.png" alt="" class="img-fluid">
                                 </a>
-                                <button class="navbar-toggler collapsed d-lg-none" type="button" data-toggle="collapse"
+                                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
                                     data-target="#navbarTopMenu" aria-controls="navbarTopMenu" aria-expanded="false"
                                     aria-label="Toggle navigation">
                                     <span class="hamburger"><span></span><span></span><span></span></span>

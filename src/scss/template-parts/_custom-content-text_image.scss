@@ -1,0 +1,25 @@
+.custom-content-text_image {
+min-height: 100vh;
+
+  .image_custom {
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+  .text-image {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px;
+    h1, p {
+      padding-bottom: 80px;
+    }
+
+    h1 {
+      color: #5D4124;
+      font-weight: 600;
+    }
+  }
+}
